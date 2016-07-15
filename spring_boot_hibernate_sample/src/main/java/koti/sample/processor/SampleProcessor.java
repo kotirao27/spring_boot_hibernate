@@ -26,6 +26,7 @@ public class SampleProcessor {
 				User user = new User();
 				setBOdatatoEntity(reqObj, user);	
 				dataResouceManager.getDaoImpl().storeData(user);
+				logger.info("Request stored successfully");
 			}
 			else{
 				logger.info("Request Received is null");
