@@ -36,7 +36,7 @@ public class SampleController {
 	}
 	
 	// to retreive user based in the param
-	@RequestMapping(path = "/request", method = {RequestMethod.POST,RequestMethod.GET}, consumes = { MediaType.APPLICATION_JSON_VALUE},produces= { MediaType.APPLICATION_JSON_VALUE})
+	@RequestMapping(path = "/retreive", method = {RequestMethod.POST,RequestMethod.GET}, consumes = { MediaType.APPLICATION_JSON_VALUE},produces= { MediaType.APPLICATION_JSON_VALUE})
 	public UserBO processSampleRequestParam(@RequestParam String id) {
 
 		UserBO userRes = null;
