@@ -13,7 +13,7 @@ import koti.sample.dao.SampleDAO;
 public class DataManager {
 	
 	@Autowired(required=true)
-	@Qualifier("cocoaDao")
+	@Qualifier("sampleDao")
 	public SampleDAO daoImpl;
 
 	public SampleDAO getDaoImpl() {
