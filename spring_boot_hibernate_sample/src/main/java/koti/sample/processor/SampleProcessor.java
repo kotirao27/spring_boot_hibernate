@@ -52,7 +52,7 @@ public class SampleProcessor {
 					setEntitytoBO(user, userBo);
 				}
 				else{
-					logger.info("received null for the requested id : "+ id);	
+					logger.info("received null for the requested id : "+ id );	
 				}
 			}
 			return userBo;
